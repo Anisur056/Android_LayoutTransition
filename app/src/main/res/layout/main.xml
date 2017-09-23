@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:padding="8dp">
+
+    <EditText
+		android:id="@+id/input_txt"
+        android:hint="Add Entry..."
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+	
+	<Button
+		android:id="@+id/add_button"
+        android:text="Add"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+	
+	<LinearLayout
+		android:id="@+id/myLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+		android:orientation="vertical"/>
+
+</LinearLayout>
